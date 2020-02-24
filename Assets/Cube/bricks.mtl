@@ -1,0 +1,5 @@
+newmtl Element
+Kd 1 1 1
+map_Kd bricks_.png
+illum 2
+
