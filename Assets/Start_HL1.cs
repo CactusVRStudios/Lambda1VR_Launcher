@@ -23,13 +23,11 @@ public class Start_HL1 : MonoBehaviour
 
     void TaskOnClick()
     {
-
-
         //Debug.Log("xash3d --supersampling " + SSSlider.value + " --msaa " + MSAA.value + " --cpu " + CPU.value + " --GPU " + GPU.value + " -game HL_Gold_HD");
 
         
         StreamWriter writer = new StreamWriter("/sdcard/xash/commandline.txt", false);        
-        writer.WriteLine("xash3d --supersampling " + SSSlider.value + " --msaa " + MSAA.value + " --cpu " + CPU.value + " --GPU " + GPU.value + " -game HL_Gold_HD");
+        writer.WriteLine("xash3d --supersampling " + SSSlider.value + " --msaa " + MSAA.value + " --cpu " + CPU.value + " --gpu " + GPU.value + " -game HL_Gold_HD");
         writer.Close();
         
 

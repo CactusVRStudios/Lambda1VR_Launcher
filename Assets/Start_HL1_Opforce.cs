@@ -23,7 +23,7 @@ public class Start_HL1_Opforce : MonoBehaviour
     void TaskOnClick()
     {
         StreamWriter writer = new StreamWriter("/sdcard/xash/commandline.txt", false);
-        writer.WriteLine("xash3d --supersampling " + SSSlider.value + " --msaa " + MSAA.value + " --cpu " + CPU.value + " --GPU " + GPU.value + " -game gearbox");
+        writer.WriteLine("xash3d --supersampling " + SSSlider.value + " --msaa " + MSAA.value + " --cpu " + CPU.value + " --gpu " + GPU.value + " -game gearbox");
         writer.Close();
 
 

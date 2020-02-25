@@ -60,8 +60,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ArionDigital\CrashCrate\Scripts\CrashCrate.cs" />
+    <Compile Include="Assets\ArionDigital\CrashCrate\Scripts\CrashCrateSpawner.cs" />
+    <Compile Include="Assets\ArionDigital\CrashCrate\Scripts\DestroyAfterTime.cs" />
+    <Compile Include="Assets\ArionDigital\CrashCrate\Scripts\Shooter.cs" />
     <Compile Include="Assets\avoidMSAA3.cs" />
     <Compile Include="Assets\cracktroplayer.cs" />
+    <Compile Include="Assets\dropdownoculus.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scenes\Scripts\TestScript.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AmbienceEmitter.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AudioManager.cs" />
@@ -396,6 +401,7 @@
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPVersion.cs" />
     <Compile Include="Assets\readcmdlinetxt.cs" />
     <Compile Include="Assets\RotateLambda.cs" />
+    <Compile Include="Assets\SaveCommand.cs" />
     <Compile Include="Assets\scrip\collionssound.cs" />
     <Compile Include="Assets\Start_Custom.cs" />
     <Compile Include="Assets\Start_HL1.cs" />

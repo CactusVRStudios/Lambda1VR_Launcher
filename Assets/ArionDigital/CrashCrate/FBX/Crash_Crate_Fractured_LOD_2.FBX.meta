@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: 1d89692693ca7c4418be9420b3a50df7
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Crash_Crate_Piece_01
+    100004: Crash_Crate_Piece_02
+    100006: Crash_Crate_Piece_03
+    100008: Crash_Crate_Piece_04
+    100010: Crash_Crate_Piece_05
+    100012: Crash_Crate_Piece_06
+    100014: Crash_Crate_Piece_07
+    100016: Crash_Crate_Piece_08
+    100018: Crash_Crate_Piece_09
+    100020: Crash_Crate_Piece_10
+    100022: Crash_Crate_Piece_11
+    100024: Crash_Crate_Piece_12
+    400000: //RootNode
+    400002: Crash_Crate_Piece_01
+    400004: Crash_Crate_Piece_02
+    400006: Crash_Crate_Piece_03
+    400008: Crash_Crate_Piece_04
+    400010: Crash_Crate_Piece_05
+    400012: Crash_Crate_Piece_06
+    400014: Crash_Crate_Piece_07
+    400016: Crash_Crate_Piece_08
+    400018: Crash_Crate_Piece_09
+    400020: Crash_Crate_Piece_10
+    400022: Crash_Crate_Piece_11
+    400024: Crash_Crate_Piece_12
+    2100000: No Name
+    2300000: Crash_Crate_Piece_01
+    2300002: Crash_Crate_Piece_02
+    2300004: Crash_Crate_Piece_03
+    2300006: Crash_Crate_Piece_04
+    2300008: Crash_Crate_Piece_05
+    2300010: Crash_Crate_Piece_06
+    2300012: Crash_Crate_Piece_07
+    2300014: Crash_Crate_Piece_08
+    2300016: Crash_Crate_Piece_09
+    2300018: Crash_Crate_Piece_10
+    2300020: Crash_Crate_Piece_11
+    2300022: Crash_Crate_Piece_12
+    3300000: Crash_Crate_Piece_01
+    3300002: Crash_Crate_Piece_02
+    3300004: Crash_Crate_Piece_03
+    3300006: Crash_Crate_Piece_04
+    3300008: Crash_Crate_Piece_05
+    3300010: Crash_Crate_Piece_06
+    3300012: Crash_Crate_Piece_07
+    3300014: Crash_Crate_Piece_08
+    3300016: Crash_Crate_Piece_09
+    3300018: Crash_Crate_Piece_10
+    3300020: Crash_Crate_Piece_11
+    3300022: Crash_Crate_Piece_12
+    4300000: Crash_Crate_Piece_12
+    4300002: Crash_Crate_Piece_11
+    4300004: Crash_Crate_Piece_10
+    4300006: Crash_Crate_Piece_09
+    4300008: Crash_Crate_Piece_08
+    4300010: Crash_Crate_Piece_07
+    4300012: Crash_Crate_Piece_06
+    4300014: Crash_Crate_Piece_05
+    4300016: Crash_Crate_Piece_04
+    4300018: Crash_Crate_Piece_03
+    4300020: Crash_Crate_Piece_02
+    4300022: Crash_Crate_Piece_01
+    6400000: Crash_Crate_Piece_01
+    6400002: Crash_Crate_Piece_02
+    6400004: Crash_Crate_Piece_03
+    6400006: Crash_Crate_Piece_04
+    6400008: Crash_Crate_Piece_05
+    6400010: Crash_Crate_Piece_06
+    6400012: Crash_Crate_Piece_07
+    6400014: Crash_Crate_Piece_08
+    6400016: Crash_Crate_Piece_09
+    6400018: Crash_Crate_Piece_10
+    6400020: Crash_Crate_Piece_11
+    6400022: Crash_Crate_Piece_12
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
