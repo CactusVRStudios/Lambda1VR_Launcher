@@ -5,6 +5,7 @@ SceneListBegin?
 Assets/Scenes/SampleScene.unity
 SceneListEnd?
 2fbd999da122bfca036f253326e1532c Assembly-CSharp.dll:OculusSampleFramework.SkeletonVisualizer
+8ce9ebdefa42ee726ac06c2572dbb1e5 Assembly-CSharp.dll:.SaveCommand
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ONSPVersion
 bf5cb87c773ea378a3f5ac036aab367b Assembly-CSharp.dll:.SocialPlatformManager
 3c08375166df118bd1801438fc36b92f Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
@@ -78,6 +79,7 @@ abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.Tou
 b3bb7c40cede9849e7814d6093dcfcea Oculus.VR.dll:.OVRRaycaster
 d3c76b14a25eebd3a3323dd43297919c Unity.TextMeshPro.dll:TMPro.TMP_InputField
 7ffa5a0944fe3f23d99ec567ae7ae898 Assembly-CSharp.dll:.CharacterCameraConstraint
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:ArionDigital.DestroyAfterTime
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:OculusSampleFramework.PauseOnInputLoss
 07bbff34ca5d14ed9bffb0376c5ede5f Assembly-CSharp.dll:.GuardianBoundaryEnforcer
 36ae7cc3e989c6df9341b63a0b042603 Assembly-CSharp.dll:Oculus.Platform.Samples.VrBoardGame.BoardPosition
@@ -117,6 +119,7 @@ abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.Tou
 c51d2a1569bb404a12e837742887b609 Oculus.VR.dll:.OVRPlayerController
 558b301491aa906446760eed78a170c5 Oculus.VR.dll:.OVRAudioSourceTest
 d29554da4f32756eaad6ec0d568c5648 Assembly-CSharp.dll:.OvrAvatarSDKManager
+12a3c508844bb30372f3c029b84ff6d5 Assembly-CSharp.dll:ArionDigital.Shooter
 aebf890e7bb4b4928ab2e32022d42d69 Assembly-CSharp.dll:.Start_HL1_Bshift
 e7dac3c9100823d6e750582bb7d6b5f8 Assembly-CSharp.dll:.TeleportAimHandlerParabolic
 2d6c48bcbb0c5879a658aca82ca624a7 Assembly-CSharp.dll:OculusSampleFramework.TrainCar
@@ -281,6 +284,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 a3b5c7ace69ce05da7ac8052564f6656 Assembly-CSharp.dll:.TeleportPoint
 ff7457f736b7a8c348d3498f09b3d520 Assembly-CSharp.dll:.ONSPAmbisonicsNative
 14994ae85a430e38936aa8c55b0450b2 Assembly-CSharp.dll:Oculus.Platform.PlatformSettings
+b36e8cdafe3d2d17848f35450cc5a1ae Assembly-CSharp.dll:.dropdownoculus
 a4ab9532686dbd13bc2c5bb58a3781ce Assembly-CSharp.dll:.MouseLook
 4c063458ca029e84d4f59c22fc3c5fca Assembly-CSharp.dll:.TeleportTargetHandlerNode
 b4f33769b4be9dc6ee0546bbfc960cbb Assembly-CSharp.dll:.OVRLipSyncContext
@@ -326,6 +330,7 @@ bbf6c8bbcb3097b51034aeb2a5b7693a Assembly-CSharp.dll:Oculus.Platform.Samples.VrH
 507174d46dacbc5fe45e28485db5dd1e Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
 f8438efc679de058330bd3e038df1378 Assembly-CSharp.dll:.ONSPPropagationSettings
 3f70808c2961a598688d62ac6c3c9016 Oculus.VR.dll:UnityEngine.EventSystems.OVRPhysicsRaycaster
+79252f2e5015014077d00f753621205a Assembly-CSharp.dll:ArionDigital.CrashCrate
 ce638e2dcac0548a4a3e456d5051c131 Assembly-CSharp.dll:Oculus.Platform.Samples.VrHoops.GoalMover
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 34c971ccf5a4d4c276f7753251cba95d Oculus.VR.dll:.OVRGridCube
@@ -356,6 +361,7 @@ df434544c9f7b33d1cc7e635b180d279 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 650c402108f0fc687b451cc4578ed29d Assembly-CSharp.dll:OculusSampleFramework.WindmillBladesController
 c1313d723d19b50c00b55c8ce726b990 Assembly-CSharp.dll:.TeleportTargetHandlerNavMesh
 85e8aa29d665952264bc2b39d7dd56b9 Assembly-CSharp.dll:.LaserPointer
+2780d6e16182d15efc94700fe55fef7c Assembly-CSharp.dll:ArionDigital.CrashCrateSpawner
 17653b21203f576d6729f3490936652e Assembly-CSharp.dll:OculusSampleFramework.FingerTipPokeTool
 2c8713480afc658528751d731eed8a21 Assembly-CSharp.dll:.TeleportTransitionBlink
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
@@ -368,9 +374,3 @@ cd06391f9225499fb9ea605ab668b015 Assembly-CSharp.dll:Oculus.Platform.Samples.VrH
 8cf111447f1f4754264a4de62c3f57df Assembly-CSharp.dll:.OVRLipSyncContextTextureFlip
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.DebugUISample
 18235af34262c9d1c806370a73196694 Assembly-CSharp.dll:OculusSampleFramework.ButtonController
-8ce9ebdefa42ee726ac06c2572dbb1e5 Assembly-CSharp.dll:.SaveCommand
-b36e8cdafe3d2d17848f35450cc5a1ae Assembly-CSharp.dll:.dropdownoculus
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:ArionDigital.DestroyAfterTime
-12a3c508844bb30372f3c029b84ff6d5 Assembly-CSharp.dll:ArionDigital.Shooter
-79252f2e5015014077d00f753621205a Assembly-CSharp.dll:ArionDigital.CrashCrate
-2780d6e16182d15efc94700fe55fef7c Assembly-CSharp.dll:ArionDigital.CrashCrateSpawner
