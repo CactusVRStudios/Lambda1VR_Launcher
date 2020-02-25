@@ -20,7 +20,6 @@ public class Start_HL1 : MonoBehaviour
         Button btn = yourButton.gameObject.GetComponentInChildren<Button>();
         btn.onClick.AddListener(TaskOnClick);
     }
-
     void TaskOnClick()
     {
         //Debug.Log("xash3d --supersampling " + SSSlider.value + " --msaa " + MSAA.value + " --cpu " + CPU.value + " --GPU " + GPU.value + " -game HL_Gold_HD");

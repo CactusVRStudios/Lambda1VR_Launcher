@@ -18,42 +18,50 @@ public class Start_HL1_Opforce : MonoBehaviour
     {
         Button btn = yourButton.gameObject.GetComponentInChildren<Button>();
         btn.onClick.AddListener(TaskOnClick);
+        if (Directory.Exists("/sdcard/xash/gearbox"))
+        {
+            yourButton.GetComponentInChildren<Text>().text = "OPPOSING FORCE";
+        }
     }
 
     void TaskOnClick()
     {
-        StreamWriter writer = new StreamWriter("/sdcard/xash/commandline.txt", false);
-        writer.WriteLine("xash3d --supersampling " + SSSlider.value + " --msaa " + MSAA.value + " --cpu " + CPU.value + " --gpu " + GPU.value + " -game gearbox");
-        writer.Close();
-
-
-        bool fail = false;
-        string bundleId = "com.drbeef.lambda1vr";
-        AndroidJavaClass up = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
-        AndroidJavaObject ca = up.GetStatic<AndroidJavaObject>("currentActivity");
-        AndroidJavaObject packageManager = ca.Call<AndroidJavaObject>("getPackageManager");
-
-        AndroidJavaObject launchIntent = null;
-        try
+        if (Directory.Exists("/sdcard/xash/gearbox"))
         {
-            launchIntent = packageManager.Call<AndroidJavaObject>("getLaunchIntentForPackage", bundleId);
-        }
-        catch (System.Exception)
-        {
-            fail = true;
-        }
 
-        if (fail)
-        { 
-            Application.OpenURL("https://sidequest.com");
+            StreamWriter writer = new StreamWriter("/sdcard/xash/commandline.txt", false);
+            writer.WriteLine("xash3d --supersampling " + SSSlider.value + " --msaa " + MSAA.value + " --cpu " + CPU.value + " --gpu " + GPU.value + " -game gearbox");
+            writer.Close();
+
+
+            bool fail = false;
+            string bundleId = "com.drbeef.lambda1vr";
+            AndroidJavaClass up = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
+            AndroidJavaObject ca = up.GetStatic<AndroidJavaObject>("currentActivity");
+            AndroidJavaObject packageManager = ca.Call<AndroidJavaObject>("getPackageManager");
+
+            AndroidJavaObject launchIntent = null;
+            try
+            {
+                launchIntent = packageManager.Call<AndroidJavaObject>("getLaunchIntentForPackage", bundleId);
+            }
+            catch (System.Exception)
+            {
+                fail = true;
+            }
+
+            if (fail)
+            {
+                Application.OpenURL("https://sidequest.com");
+            }
+            else
+                ca.Call("startActivity", launchIntent);
+
+            up.Dispose();
+            ca.Dispose();
+            packageManager.Dispose();
+            launchIntent.Dispose();
+
         }
-        else 
-            ca.Call("startActivity", launchIntent);
-
-        up.Dispose();
-        ca.Dispose();
-        packageManager.Dispose();
-        launchIntent.Dispose();
-
     }
 }

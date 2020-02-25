@@ -19,42 +19,50 @@ public class Start_HL1_Bshift : MonoBehaviour
     {
         Button btn = yourButton.gameObject.GetComponentInChildren<Button>();
         btn.onClick.AddListener(TaskOnClick);
+        if (Directory.Exists("/sdcard/xash/bshift"))
+            {
+            yourButton.GetComponentInChildren<Text>().text = "BLUE SHIFT";
+            }
+           
     }
 
     void TaskOnClick()
     {
-        StreamWriter writer = new StreamWriter("/sdcard/xash/commandline.txt", false);
-        writer.WriteLine("xash3d --supersampling " + SSSlider.value + " --msaa " + MSAA.value + " --cpu " + CPU.value + " --gpu " + GPU.value + " -game bshift");
-        writer.Close();
-
-
-        bool fail = false;
-        string bundleId = "com.drbeef.lambda1vr";
-        AndroidJavaClass up = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
-        AndroidJavaObject ca = up.GetStatic<AndroidJavaObject>("currentActivity");
-        AndroidJavaObject packageManager = ca.Call<AndroidJavaObject>("getPackageManager");
-
-        AndroidJavaObject launchIntent = null;
-        try
+        if (Directory.Exists("/sdcard/xash/bshift"))
         {
-            launchIntent = packageManager.Call<AndroidJavaObject>("getLaunchIntentForPackage", bundleId);
-        }
-        catch (System.Exception)
-        {
-            fail = true;
-        }
+            StreamWriter writer = new StreamWriter("/sdcard/xash/commandline.txt", false);
+            writer.WriteLine("xash3d --supersampling " + SSSlider.value + " --msaa " + MSAA.value + " --cpu " + CPU.value + " --gpu " + GPU.value + " -game bshift");
+            writer.Close();
 
-        if (fail)
-        { 
-            Application.OpenURL("https://sidequest.com");
+
+            bool fail = false;
+            string bundleId = "com.drbeef.lambda1vr";
+            AndroidJavaClass up = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
+            AndroidJavaObject ca = up.GetStatic<AndroidJavaObject>("currentActivity");
+            AndroidJavaObject packageManager = ca.Call<AndroidJavaObject>("getPackageManager");
+
+            AndroidJavaObject launchIntent = null;
+            try
+            {
+                launchIntent = packageManager.Call<AndroidJavaObject>("getLaunchIntentForPackage", bundleId);
+            }
+            catch (System.Exception)
+            {
+                fail = true;
+            }
+
+            if (fail)
+            {
+                Application.OpenURL("https://sidequest.com");
+            }
+            else
+                ca.Call("startActivity", launchIntent);
+
+            up.Dispose();
+            ca.Dispose();
+            packageManager.Dispose();
+            launchIntent.Dispose();
+
         }
-        else 
-            ca.Call("startActivity", launchIntent);
-
-        up.Dispose();
-        ca.Dispose();
-        packageManager.Dispose();
-        launchIntent.Dispose();
-
     }
 }
