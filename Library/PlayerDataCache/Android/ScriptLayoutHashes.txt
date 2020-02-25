@@ -120,7 +120,6 @@ c51d2a1569bb404a12e837742887b609 Oculus.VR.dll:.OVRPlayerController
 558b301491aa906446760eed78a170c5 Oculus.VR.dll:.OVRAudioSourceTest
 d29554da4f32756eaad6ec0d568c5648 Assembly-CSharp.dll:.OvrAvatarSDKManager
 12a3c508844bb30372f3c029b84ff6d5 Assembly-CSharp.dll:ArionDigital.Shooter
-aebf890e7bb4b4928ab2e32022d42d69 Assembly-CSharp.dll:.Start_HL1_Bshift
 e7dac3c9100823d6e750582bb7d6b5f8 Assembly-CSharp.dll:.TeleportAimHandlerParabolic
 2d6c48bcbb0c5879a658aca82ca624a7 Assembly-CSharp.dll:OculusSampleFramework.TrainCar
 6adf0680d8d7e110dab1c5470b12851b Oculus.VR.dll:.OVRProfiler
@@ -217,7 +216,6 @@ cccc543eb45378c34ebd01571b04e9bd Assembly-CSharp.dll:.CanvasKeyboardEditableButt
 fe9e00068283ef13b28a703001e08184 Assembly-CSharp.dll:OculusSampleFramework.GrabManager
 32cb18cd5ad8276bea4ff86b3a04274b Assembly-CSharp.dll:OVRTouchSample.HandPose
 f8bdc5302f6dd3ca0d6feb313e913f0a Assembly-CSharp.dll:OculusSampleFramework.OVROverlaySample
-aebf890e7bb4b4928ab2e32022d42d69 Assembly-CSharp.dll:.Start_HL1
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
 b5d01a44c9a694c6b9bce4626dd0a12e Oculus.VR.dll:.OVRHandTest
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:Oculus.Platform.Samples.VrHoops.BallEjector
@@ -230,7 +228,6 @@ f755f70821dca4d5238a30a2960a95be Assembly-CSharp.dll:OculusSampleFramework.Hands
 6d39c48b69b486476ba524949d845693 Assembly-CSharp.dll:.LocomotionController
 45f2a4e63a8b43166e3f85c4d543f00d Oculus.VR.dll:.OVRSceneLoader
 a59e183d3f86325b6f381a8fc91f951c Assembly-CSharp.dll:OculusSampleFramework.DistanceGrabbable
-aebf890e7bb4b4928ab2e32022d42d69 Assembly-CSharp.dll:.Start_HL1_Opforce
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:OculusSampleFramework.InteractableToolsInputRouter
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.CubeListener
 ab9b3242e7f7cea8eb7d313db01cc29d Assembly-CSharp.dll:.OVRLipSyncContextCanned
@@ -337,7 +334,7 @@ d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.Spa
 b00ce1f32326f1cd1160488ffd14965a Oculus.VR.Editor.dll:.OVRConfig
 8b9f42d72019bde2f9fe0667762eaff3 Assembly-CSharp.dll:.OvrAvatarSkinnedMeshRenderComponent
 57bbc7ecf7a22767c1b9015689b1da78 Assembly-CSharp.dll:OculusSampleFramework.CowController
-528c9405055e7a76669f147c3c8e0ec7 Assembly-CSharp.dll:.cracktroplayer
+528c9405055e7a76669f147c3c8e0ec7 Assembly-CSharp.dll:.easter
 8b751ea9ac08c048355865b722865681 Assembly-CSharp.dll:OculusSampleFramework.PanelHMDFollower
 76b80dd1b65f63dfa63cf0ea8a906f3a Assembly-CSharp.dll:.SimpleCapsuleWithStickMovement
 20acf3c1667c3fcaf430a03c1274c6e5 Assembly-CSharp.dll:Oculus.Platform.Samples.VrBoardGame.MatchmakingManager
@@ -374,3 +371,4 @@ cd06391f9225499fb9ea605ab668b015 Assembly-CSharp.dll:Oculus.Platform.Samples.VrH
 8cf111447f1f4754264a4de62c3f57df Assembly-CSharp.dll:.OVRLipSyncContextTextureFlip
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.DebugUISample
 18235af34262c9d1c806370a73196694 Assembly-CSharp.dll:OculusSampleFramework.ButtonController
+d4cc32f478f0dba66ef90666dc0addca Assembly-CSharp.dll:.Start_Lambda1VR
