@@ -28,7 +28,7 @@ public class Start_HL1_Opforce : MonoBehaviour
 
 
         bool fail = false;
-        string bundleId = "com.drbeef.lambda1vr"; // your target bundle id
+        string bundleId = "com.drbeef.lambda1vr";
         AndroidJavaClass up = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
         AndroidJavaObject ca = up.GetStatic<AndroidJavaObject>("currentActivity");
         AndroidJavaObject packageManager = ca.Call<AndroidJavaObject>("getPackageManager");
@@ -44,10 +44,10 @@ public class Start_HL1_Opforce : MonoBehaviour
         }
 
         if (fail)
-        { //open app in store
+        { 
             Application.OpenURL("https://sidequest.com");
         }
-        else //open the app
+        else 
             ca.Call("startActivity", launchIntent);
 
         up.Dispose();
