@@ -6,8 +6,14 @@ using System.IO;
 
 public class Start_HL1 : MonoBehaviour
 {
-    // Start is called before the first frame update
+ 
     public Button yourButton;
+    public Slider SSSlider;
+    public Slider MSAA;
+    public Slider CPU;
+    public Slider GPU;
+
+
 
     void Start()
     {
@@ -17,13 +23,18 @@ public class Start_HL1 : MonoBehaviour
 
     void TaskOnClick()
     {
+
+
+        //Debug.Log("xash3d --supersampling " + SSSlider.value + " --msaa " + MSAA.value + " --cpu " + CPU.value + " --GPU " + GPU.value + " -game HL_Gold_HD");
+
+        
         StreamWriter writer = new StreamWriter("/sdcard/xash/commandline.txt", false);        
-        writer.WriteLine("xash3d -log -dev 3 -log -game HL_Gold_HD");
+        writer.WriteLine("xash3d --supersampling " + SSSlider.value + " --msaa " + MSAA.value + " --cpu " + CPU.value + " --GPU " + GPU.value + " -game HL_Gold_HD");
         writer.Close();
         
 
         bool fail = false;
-        string bundleId = "com.drbeef.lambda1vr"; // your target bundle id
+        string bundleId = "com.drbeef.lambda1vr"; // starting lambda1vr
         AndroidJavaClass up = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
         AndroidJavaObject ca = up.GetStatic<AndroidJavaObject>("currentActivity");
         AndroidJavaObject packageManager = ca.Call<AndroidJavaObject>("getPackageManager");
@@ -39,16 +50,16 @@ public class Start_HL1 : MonoBehaviour
         }
 
         if (fail)
-        { //open app in store
+        { //open sidequest in browser
             Application.OpenURL("https://sidequest.com");
         }
-        else //open the app
+        else //open lambda1vr
             ca.Call("startActivity", launchIntent);
 
         up.Dispose();
         ca.Dispose();
         packageManager.Dispose();
         launchIntent.Dispose();
-
+        
     }
 }

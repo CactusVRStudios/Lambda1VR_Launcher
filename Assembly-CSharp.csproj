@@ -60,6 +60,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\avoidMSAA3.cs" />
+    <Compile Include="Assets\cracktroplayer.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scenes\Scripts\TestScript.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AmbienceEmitter.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AudioManager.cs" />
@@ -392,10 +394,12 @@
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPPropagationSettings.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPSettings.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPVersion.cs" />
+    <Compile Include="Assets\RotateLambda.cs" />
     <Compile Include="Assets\scrip\collionssound.cs" />
     <Compile Include="Assets\Start_HL1.cs" />
     <Compile Include="Assets\Start_HL1_Bshift.cs" />
     <Compile Include="Assets\Start_HL1_Opforce.cs" />
+    <Compile Include="Assets\valuetext.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_PC_SingleComponent.shader" />

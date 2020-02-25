@@ -7,6 +7,12 @@ using System.IO;
 public class Start_HL1_Opforce : MonoBehaviour
 {
     public Button yourButton;
+    public Slider SSSlider;
+    public Slider MSAA;
+    public Slider CPU;
+    public Slider GPU;
+
+
 
     void Start()
     {
@@ -17,7 +23,7 @@ public class Start_HL1_Opforce : MonoBehaviour
     void TaskOnClick()
     {
         StreamWriter writer = new StreamWriter("/sdcard/xash/commandline.txt", false);
-        writer.WriteLine("xash3d -log -dev 3 -log -game gearbox");
+        writer.WriteLine("xash3d --supersampling " + SSSlider.value + " --msaa " + MSAA.value + " --cpu " + CPU.value + " --GPU " + GPU.value + " -game gearbox");
         writer.Close();
 
 
