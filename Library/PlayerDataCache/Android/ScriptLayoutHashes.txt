@@ -239,6 +239,7 @@ a4b88f3b08f1f148e04c6c3d7544c9ec Oculus.VR.dll:.OVRMonoscopic
 157538f8f4891e8727c599fd613d7108 Assembly-CSharp.dll:.OVRLipSyncDebugConsole
 8a472b9d30acaab8e6257c7f673e2479 Assembly-CSharp.dll:OVRTouchSample.Hand
 7d3b4419890d47df531f3744ef978ef0 Assembly-CSharp.dll:.TeleportInputHandlerTouch
+c8ba51241469e6e1108347ce70ef19db Assembly-CSharp.dll:.RefreshCmdLine
 0182aac3fd8bfdeff27021b9548c3a6a Oculus.VR.dll:.OVRGrabbable
 9fce3d3ad5943924497902d7085db4c5 Oculus.VR.dll:.OVRCubemapCapture
 e1ca8f8609ae109158b50ac13a67fa0b Assembly-CSharp.dll:.TeleportAimVisualLaser
@@ -363,6 +364,7 @@ c1313d723d19b50c00b55c8ce726b990 Assembly-CSharp.dll:.TeleportTargetHandlerNavMe
 17653b21203f576d6729f3490936652e Assembly-CSharp.dll:OculusSampleFramework.FingerTipPokeTool
 2c8713480afc658528751d731eed8a21 Assembly-CSharp.dll:.TeleportTransitionBlink
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ToggleUnsupported
 163c66cebee3ffd65522e6a24263575f Assembly-CSharp.dll:OculusSampleFramework.BoneCapsuleTriggerLogic
 fbb319f69f4aa2697b2d24521cf3e61d Assembly-CSharp.dll:OculusSampleFramework.WindmillController
 c3bd598ebf26a1734f4e48c8dfe999af Assembly-CSharp.dll:.TeleportDestination
@@ -372,5 +374,3 @@ cd06391f9225499fb9ea605ab668b015 Assembly-CSharp.dll:Oculus.Platform.Samples.VrH
 8cf111447f1f4754264a4de62c3f57df Assembly-CSharp.dll:.OVRLipSyncContextTextureFlip
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.DebugUISample
 18235af34262c9d1c806370a73196694 Assembly-CSharp.dll:OculusSampleFramework.ButtonController
-c8ba51241469e6e1108347ce70ef19db Assembly-CSharp.dll:.RefreshCmdLine
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ToggleUnsupported
