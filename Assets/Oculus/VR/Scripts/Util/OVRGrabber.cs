@@ -59,6 +59,11 @@ public class OVRGrabber : MonoBehaviour
     [SerializeField]
     protected Transform m_parentTransform;
 
+    public OVRInput.Controller GetController()
+    {
+        return m_controller;
+    }
+        
     [SerializeField]
     protected GameObject m_player;
 
@@ -286,6 +291,8 @@ public class OVRGrabber : MonoBehaviour
                 {
                     Vector3 snapOffset = m_grabbedObj.snapOffset.position;
                     if (m_controller == OVRInput.Controller.LTouch) snapOffset.x = -snapOffset.x;
+                  //  if (m_controller == OVRInput.Controller.LTouch) snapOffset.y = -snapOffset.y;
+                  //  if (m_controller == OVRInput.Controller.LTouch) snapOffset.z = -snapOffset.z;
                     m_grabbedObjectPosOff += snapOffset;
                 }
             }
@@ -302,6 +309,7 @@ public class OVRGrabber : MonoBehaviour
                 if(m_grabbedObj.snapOffset)
                 {
                     m_grabbedObjectRotOff = m_grabbedObj.snapOffset.rotation * m_grabbedObjectRotOff;
+                   // if (m_controller == OVRInput.Controller.LTouch) m_grabbedObjectRotOff = Quaternion.Inverse(m_grabbedObjectRotOff);
                 }
             }
             else

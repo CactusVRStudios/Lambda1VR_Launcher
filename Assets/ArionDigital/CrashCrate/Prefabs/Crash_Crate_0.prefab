@@ -14,8 +14,9 @@ GameObject:
   - component: {fileID: 2344233952891658336}
   - component: {fileID: 8972346622805641525}
   - component: {fileID: 4262418605540733613}
+  - component: {fileID: 4378172440050927361}
   m_Layer: 0
-  m_Name: Crash_Crate
+  m_Name: Crash_Crate_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -206,6 +207,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4378172440050927361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9065924571364506927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61ed97beec108024998b593efa4bcfff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _LODLevel: 0
+  crashCrateLOD0: {fileID: 2141310652959864319}
+  crashCrateLOD1: {fileID: 0}
+  crashCrateLOD2: {fileID: 0}
 --- !u!1001 &6443732225295728285
 PrefabInstance:
   m_ObjectHideFlags: 0

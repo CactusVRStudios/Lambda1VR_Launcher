@@ -399,6 +399,7 @@
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPSettings.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPVersion.cs" />
     <Compile Include="Assets\readcmdlinetxt.cs" />
+    <Compile Include="Assets\RefreshCmdLine.cs" />
     <Compile Include="Assets\RotateLambda.cs" />
     <Compile Include="Assets\SaveCommand.cs" />
     <Compile Include="Assets\scrip\collionssound.cs" />
@@ -415,6 +416,7 @@
     <Compile Include="Assets\Tales From The Rift\Gaze\Demo\GazeCrosshairOnOff.cs" />
     <Compile Include="Assets\Tales From The Rift\Gaze\GazeInputModule.cs" />
     <Compile Include="Assets\Tales From The Rift\Gaze\GazeInputModuleCrosshair.cs" />
+    <Compile Include="Assets\ToggleUnsupported.cs" />
     <Compile Include="Assets\valuetext.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />

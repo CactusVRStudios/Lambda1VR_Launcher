@@ -17,7 +17,12 @@ public class Start_Lambda1VR : MonoBehaviour
     public Button mod2Button;
     public Button mod3Button;
     public Button mod4Button;
-    public Button mod5Button;  
+    public Button mod5Button;
+    public Button mod6Button;
+    public Button mod7Button;
+    public Button mod8Button;
+         
+
 
     public Slider SSSlider;
     public Slider MSAA;
@@ -73,7 +78,7 @@ public class Start_Lambda1VR : MonoBehaviour
         }
 
 
-        string[] customgames = Directory.GetDirectories("/sdcard/xash");
+        string[] customgames = Directory.GetDirectories("/sdcard/xash");  // check for unsupported games
         int game = 0;
         foreach (string cgame in customgames)
         {
@@ -116,22 +121,36 @@ public class Start_Lambda1VR : MonoBehaviour
                     mod5Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });                    
                 }
 
+                if (game == 6)
+                {
+                    mod6Button.gameObject.SetActive(true);
+                    mod6Button.GetComponentInChildren<Text>().text = Path.GetFileName(cgame);
+                    mod6Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });
+                }
+
+                if (game == 7)
+                {
+                    mod7Button.gameObject.SetActive(true);
+                    mod7Button.GetComponentInChildren<Text>().text = Path.GetFileName(cgame);
+                    mod7Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });
+                }
+
+                if (game == 8)
+                {
+                    mod8Button.gameObject.SetActive(true);
+                    mod8Button.GetComponentInChildren<Text>().text = Path.GetFileName(cgame);
+                    mod8Button.onClick.AddListener(delegate { TaskOnClick(Path.GetFileName(cgame)); });
+                }                                                                                                 
+
                 game++;  //next game
             }
 
         }
 
-
-
-
-
 }
-
-
-
-
-
-    void TaskOnClick(string gamemode)
+    
+       
+    public void TaskOnClick(string gamemode)
     {
         //Debug.Log("xash3d --supersampling " + SSSlider.value + " --msaa " + MSAA.value + " --cpu " + CPU.value + " --GPU " + GPU.value + " -game HL_Gold_HD");
 

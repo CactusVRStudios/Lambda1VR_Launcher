@@ -2,7 +2,7 @@ Android
 PlayerPath?
 E:/Unity/Lambda1VR_Launcher/Lambda1VR_Launcher/Release/LambdaLauncher.apk
 SceneListBegin?
-Assets/Scenes/SampleScene.unity
+Assets/Scenes/LauncherScene.unity
 SceneListEnd?
 2fbd999da122bfca036f253326e1532c Assembly-CSharp.dll:OculusSampleFramework.SkeletonVisualizer
 8ce9ebdefa42ee726ac06c2572dbb1e5 Assembly-CSharp.dll:.SaveCommand
@@ -208,6 +208,7 @@ b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 8b9f42d72019bde2f9fe0667762eaff3 Assembly-CSharp.dll:.OvrAvatarSkinnedMeshRenderPBSComponent
 1eb9aed3cd6453fbc580cf51127908af Assembly-CSharp.dll:Oculus.Platform.CallbackRunner
 9edf0788742c31d8eaaf32cf4feac747 Oculus.VR.dll:.OVRResetOrientation
+704df1b4c200b34aeb9ac678db78d524 Assembly-CSharp.dll:.Start_Lambda1VR
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:Oculus.Platform.Samples.VrHoops.P2PNetworkBall
 cccc543eb45378c34ebd01571b04e9bd Assembly-CSharp.dll:.CanvasKeyboardEditableButton
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.Analytics.Editor.dll:UnityEditor.Analytics.AnalyticsEventTrackerEditor
@@ -371,4 +372,5 @@ cd06391f9225499fb9ea605ab668b015 Assembly-CSharp.dll:Oculus.Platform.Samples.VrH
 8cf111447f1f4754264a4de62c3f57df Assembly-CSharp.dll:.OVRLipSyncContextTextureFlip
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.DebugUISample
 18235af34262c9d1c806370a73196694 Assembly-CSharp.dll:OculusSampleFramework.ButtonController
-d4cc32f478f0dba66ef90666dc0addca Assembly-CSharp.dll:.Start_Lambda1VR
+c8ba51241469e6e1108347ce70ef19db Assembly-CSharp.dll:.RefreshCmdLine
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ToggleUnsupported
