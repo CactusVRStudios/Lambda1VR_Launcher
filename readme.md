@@ -19,14 +19,9 @@
 
 
 # Credits: 
-
 * Dr. Beef, BaggyG for Lambda1VR
-
-* GTBebbo for Companion Cube
-
-* Huargenn for Lambda Logo
-
-* VR_Bummser for beta testing 
-
-* Sacio for the Chiptune
+* GTBebbo for Companion Cube (sketchfab)
+* Huargenn for Lambda Logo (sketchfab)
+* -Aro- for Cover Artwork
+* VR_Bummser and BaggyG for beta testing
 
