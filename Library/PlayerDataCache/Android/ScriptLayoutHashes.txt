@@ -239,7 +239,7 @@ a4b88f3b08f1f148e04c6c3d7544c9ec Oculus.VR.dll:.OVRMonoscopic
 157538f8f4891e8727c599fd613d7108 Assembly-CSharp.dll:.OVRLipSyncDebugConsole
 8a472b9d30acaab8e6257c7f673e2479 Assembly-CSharp.dll:OVRTouchSample.Hand
 7d3b4419890d47df531f3744ef978ef0 Assembly-CSharp.dll:.TeleportInputHandlerTouch
-c8ba51241469e6e1108347ce70ef19db Assembly-CSharp.dll:.RefreshCmdLine
+998c3e2458fc71dc1a264567581af3d8 Assembly-CSharp.dll:.RefreshCmdLine
 0182aac3fd8bfdeff27021b9548c3a6a Oculus.VR.dll:.OVRGrabbable
 9fce3d3ad5943924497902d7085db4c5 Oculus.VR.dll:.OVRCubemapCapture
 e1ca8f8609ae109158b50ac13a67fa0b Assembly-CSharp.dll:.TeleportAimVisualLaser
@@ -369,6 +369,7 @@ c1313d723d19b50c00b55c8ce726b990 Assembly-CSharp.dll:.TeleportTargetHandlerNavMe
 fbb319f69f4aa2697b2d24521cf3e61d Assembly-CSharp.dll:OculusSampleFramework.WindmillController
 c3bd598ebf26a1734f4e48c8dfe999af Assembly-CSharp.dll:.TeleportDestination
 2fe925fedc6684bfaaedfdd7284d7727 Oculus.VR.dll:.OVRSkeleton
+a9c25452c20ba763c7bb39d108aaf603 Assembly-CSharp.dll:.createcommandline
 cd06391f9225499fb9ea605ab668b015 Assembly-CSharp.dll:Oculus.Platform.Samples.VrHoops.VREyeRaycaster
 0e8dbd0a181c0f62f8eb34001deff1c7 Assembly-CSharp.dll:OculusSampleFramework.DistanceGrabberSample
 8cf111447f1f4754264a4de62c3f57df Assembly-CSharp.dll:.OVRLipSyncContextTextureFlip

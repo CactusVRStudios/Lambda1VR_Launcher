@@ -65,6 +65,7 @@
     <Compile Include="Assets\ArionDigital\CrashCrate\Scripts\DestroyAfterTime.cs" />
     <Compile Include="Assets\ArionDigital\CrashCrate\Scripts\Shooter.cs" />
     <Compile Include="Assets\avoidMSAA3.cs" />
+    <Compile Include="Assets\createcommandline.cs" />
     <Compile Include="Assets\dropdownoculus.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scenes\Scripts\TestScript.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AmbienceEmitter.cs" />
@@ -418,6 +419,7 @@
     <Compile Include="Assets\Tales From The Rift\Gaze\GazeInputModuleCrosshair.cs" />
     <Compile Include="Assets\ToggleUnsupported.cs" />
     <Compile Include="Assets\valuetext.cs" />
+    <None Include="Assets\Logo\New Text Document.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_PC_SingleComponent.shader" />

@@ -8,6 +8,7 @@ using TMPro;
 public class RefreshCmdLine : MonoBehaviour
 {
     public TMP_InputField customLine;
+    public Text statusLine;
 
     // Start is called before the first frame update
     void Start()
@@ -20,5 +21,9 @@ public class RefreshCmdLine : MonoBehaviour
     {
         StreamReader cmdfile = new StreamReader("/sdcard/xash/commandline.txt");
         customLine.text = cmdfile.ReadLine();
+        statusLine.text = "Commandline loaded!";
+       // yield return new WaitForSeconds(5);        
     }
+
+
 }

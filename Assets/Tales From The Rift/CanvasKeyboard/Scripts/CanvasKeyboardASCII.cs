@@ -33,7 +33,7 @@ namespace TalesFromTheRift
 			{
 				if (canvasKeyboard != null)
 				{
-					//canvasKeyboard.CloseKeyboard();
+					canvasKeyboard.CloseKeyboard();
 				}
 			}
 			else if (kb.name == "ALT")
