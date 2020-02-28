@@ -1,6 +1,6 @@
 ## Lambda1VR Launcher
 
-![Launcher Preview](Logo/preview.gif)
+![Launcher Preview](Assets/Logo/preview.gif)
 
 
 
