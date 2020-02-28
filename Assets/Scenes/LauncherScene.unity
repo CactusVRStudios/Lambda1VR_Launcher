@@ -6378,7 +6378,6 @@ GameObject:
   - component: {fileID: 881386264}
   - component: {fileID: 881386263}
   - component: {fileID: 881386262}
-  - component: {fileID: 881386261}
   m_Layer: 5
   m_Name: DefaultValues
   m_TagString: Untagged
@@ -6406,20 +6405,6 @@ RectTransform:
   m_AnchoredPosition: {x: 390.6, y: 18.2}
   m_SizeDelta: {x: 128, y: 41.6}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &881386261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 881386259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c96520b78d365384da743e49a8df0cff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  yourButton: {fileID: 881386262}
-  customLine: {fileID: 1413405638}
 --- !u!114 &881386262
 MonoBehaviour:
   m_ObjectHideFlags: 0
