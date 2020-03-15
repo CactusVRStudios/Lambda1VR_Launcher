@@ -78,7 +78,7 @@ abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.Tou
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 b3bb7c40cede9849e7814d6093dcfcea Oculus.VR.dll:.OVRRaycaster
 d3c76b14a25eebd3a3323dd43297919c Unity.TextMeshPro.dll:TMPro.TMP_InputField
-7ffa5a0944fe3f23d99ec567ae7ae898 Assembly-CSharp.dll:.CharacterCameraConstraint
+c31603324da275845ef0e334c0da7196 Assembly-CSharp.dll:.CharacterCameraConstraint
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:ArionDigital.DestroyAfterTime
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:OculusSampleFramework.PauseOnInputLoss
 07bbff34ca5d14ed9bffb0376c5ede5f Assembly-CSharp.dll:.GuardianBoundaryEnforcer
