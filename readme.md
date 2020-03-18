@@ -24,4 +24,5 @@
 * Huargenn for Lambda Logo (sketchfab)
 * -Aro- for Cover Artwork
 * VR_Bummser and BaggyG for beta testing
+* Tune: my_dirty_old_kamel.xm (modarchive)
 
