@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 13
+  controlID: 78
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -67,8 +67,8 @@ MonoBehaviour:
     y: 0
     width: 362
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 74}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 353
     height: 608
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 14
+  controlID: 79
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 15
+  controlID: 80
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -446,7 +446,7 @@ MonoBehaviour:
     height: 319
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
-    m_NameFilter: OVRGRabber
+    m_NameFilter: 
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -456,19 +456,20 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SearchArea: 1
-    m_Folders: []
+    m_Folders:
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 69
   m_LastFolders:
-  - Assets/Tales From The Rift/CanvasKeyboard/Resources
+  - Assets
   m_LastFoldersGridSize: 69
   m_LastProjectPath: E:\Unity\Lambda1VR_Launcher\Lambda1VR_Launcher
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 182}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: b42b0000
+    m_LastClickedID: 11188
     m_ExpandedIDs: 00000000b42b0000d02b0000622c00000c2e00005c2e00008a2e00008e2e0000503200006032000004350000a23d0000883e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -618,7 +619,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 12b1ffffacb1ffffceb1ffffe2b1ffff50b2ffffeab2ffff0cb3ffff1cb3ffff7cb6ffff16b7ffff3cb7ffffdab9ffffdefbffff78450000c8cf0000d4d60000
+      m_ExpandedIDs: 40b7ffffdab7ffff00b8ffffa2baffff72d3ffff80d3ffff84d3ffff88d3ffffdefbffff7a450000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -757,8 +758,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -507.5
-    m_HBaseRangeMax: 507.5
+    m_HBaseRangeMin: -600.5
+    m_HBaseRangeMax: 600.5
     m_VBaseRangeMin: -285.5
     m_VBaseRangeMax: 285.5
     m_HAllowExceedBaseRangeMin: 1
